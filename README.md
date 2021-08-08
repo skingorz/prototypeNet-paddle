@@ -45,7 +45,7 @@ conda env create -f environment.yml
 
 为了避免训练过程中对文件的频繁读取，首先将数据集读取并保存到下来
 ```bash
-python dataprocess.py
+python data/dataprocess.py
 ```
 
 ### （二）修改配置文件
