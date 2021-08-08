@@ -1,5 +1,5 @@
 # 使用PaddlePaddle复现论文：Prototypical Networks for Few-shot Learning
-本文参照(https://github.com/yinboc/prototypical-network-pytorch)的pytorch版本进行复现
+本文参照[https://github.com/yinboc/prototypical-network-pytorch](https://github.com/yinboc/prototypical-network-pytorch)的pytorch版本进行复现
 
 ## Prototypical Networks
 
