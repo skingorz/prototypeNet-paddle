@@ -1,0 +1,26 @@
+train:
+  max_epoch: 100
+  save_epoch: 20
+  shot: 5
+  query: 15
+  train_way: 20
+  test_way: 5
+  datasets: "mini-imageNet"
+  datapath: '/data/songk/project/work'
+  save_path: 'exps/exp-v2/proto'
+  gpu: 'gpu:1'
+  seed: 29497
+  lr: 0.001
+  stepSize: 20
+  gamma: 0.5
+test:
+  gpu: 'gpu:1'
+  # load: 'exps/exp-v2/proto/max-acc.pth'
+  load: '5-shot.pth'
+  datapath: '/data/songk/project/work'
+  result: 'exps/exp-v2/proto/result'
+  batch: 2000
+  way: 5
+  shot: 5
+  query: 30
+  seed: 29497
