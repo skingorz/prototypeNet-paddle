@@ -93,15 +93,15 @@ FLAGS_cudnn_deterministic=True python tools/test.py --config "exps/exp-v2/config
 
 | method   | 5-way-1-shot | 5-way-5-shot  |  
 |:--------:|:------------:|:------------:|
-| paper    | $49.42\pm0.78$ | $68.20\pm0.66$
+| paper    | $49.42 \pm 0.78$ | $68.20 \pm 0.66$
 | [oscarknagg/few-shot](https://github.com/oscarknagg/few-shot)  |  $48.0$  | $66.2$ |
 | [yinboc/prototypical-network-pytorch](https://github.com/yinboc/prototypical-network-pytorch)  |  $49.1$  | $66.9$ |
 | [schatty/prototypical-networks-tf](https://github.com/schatty/prototypical-networks-tf)  |  $43.5$  | $66.0$ |
-| [minseop-aitrics/FewshotLearning](https://github.com/minseop-aitrics/FewshotLearning) | $52.547\pm0.766$ | $67.673\pm0.648$ |
+| [minseop-aitrics/FewshotLearning](https://github.com/minseop-aitrics/FewshotLearning) | $52.547 \pm 0.766$ | $67.673 \pm 0.648$ |
 | [KamalM8/Few-Shot-learning-Fashion](https://github.com/KamalM8/Few-Shot-learning-Fashion)  |  $48.0$  | $66.2$ |
 | [WangTianduo/Prototypical-Networks](https://github.com/WangTianduo/Prototypical-Networks)  |  $42.48$  | $64.7$ |
 | [Michedev/Prototypical-Networks-Few-Zero-Shot](https://github.com/Michedev/Prototypical-Networks-Few-Zero-Shot)  |  $49.75$  | $66.60$ |
-| This repo(paddlepaddle)   | $50.29\pm0.64$ | $67.33\pm0.49$
+| This repo(paddlepaddle)   | $50.29 \pm 0.64$ | $67.33 \pm 0.49$
 
 
 # Reference
