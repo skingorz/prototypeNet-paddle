@@ -108,19 +108,19 @@ FLAGS_cudnn_deterministic=True python tools/test.py --config "exps/exp-v2/config
 
 ### （五）性能对比
 
-下表展示了我们的复现代码和paperwithcode上已有的结果对比，在5-way-1-shot上我们的方法超过了论文的性能$0.87\%$，也高于大部分复现结果。在5-way-5-shot上，我们比论文性能略低$0.897%$，但是paperwithcode上目前并无达到论文性能的代码，且我们的复现性能依旧高于大部分现有的复现结果。
+下表展示了我们的复现代码和paperwithcode上已有的结果对比，在5-way-1-shot上我们的方法超过了论文的性能0.87\%，也高于大部分复现结果。在5-way-5-shot上，我们比论文性能略低0.87%，但是paperwithcode上目前并无达到论文性能的代码，且我们的复现性能依旧高于大部分现有的复现结果。
 
 | method   | 5-way-1-shot | 5-way-5-shot  |  
 |:--------:|:------------:|:------------:|
-| paper    | $49.42 \pm 0.78$ | $68.20 \pm 0.66$
-| [oscarknagg/few-shot](https://github.com/oscarknagg/few-shot)  |  $48.0$  | $66.2$ |
-| [yinboc/prototypical-network-pytorch](https://github.com/yinboc/prototypical-network-pytorch)  |  $49.1$  | $66.9$ |
-| [schatty/prototypical-networks-tf](https://github.com/schatty/prototypical-networks-tf)  |  $43.5$  | $66.0$ |
-| [minseop-aitrics/FewshotLearning](https://github.com/minseop-aitrics/FewshotLearning) | $52.547 \pm 0.766$ | $67.673 \pm 0.648$ |
-| [KamalM8/Few-Shot-learning-Fashion](https://github.com/KamalM8/Few-Shot-learning-Fashion)  |  $48.0$  | $66.2$ |
-| [WangTianduo/Prototypical-Networks](https://github.com/WangTianduo/Prototypical-Networks)  |  $42.48$  | $64.7$ |
-| [Michedev/Prototypical-Networks-Few-Zero-Shot](https://github.com/Michedev/Prototypical-Networks-Few-Zero-Shot)  |  $49.75$  | $66.60$ |
-| This repo(paddlepaddle)   | $50.29 \pm 0.64$ | $67.33 \pm 0.49$
+| paper    | 49.42 ± 0.78 | 68.20 ± 0.66 |
+| [oscarknagg/few-shot](https://github.com/oscarknagg/few-shot)  |  48.0  | 66.2 |
+| [yinboc/prototypical-network-pytorch](https://github.com/yinboc/prototypical-network-pytorch)  |  49.1  | 66.9 |
+| [schatty/prototypical-networks-tf](https://github.com/schatty/prototypical-networks-tf)  |  43.5  | 66.0 |
+| [minseop-aitrics/FewshotLearning](https://github.com/minseop-aitrics/FewshotLearning) | 52.547 ± 0.766 | 67.673 ± 0.648 |
+| [KamalM8/Few-Shot-learning-Fashion](https://github.com/KamalM8/Few-Shot-learning-Fashion)  |  48.0  | 66.2 |
+| [WangTianduo/Prototypical-Networks](https://github.com/WangTianduo/Prototypical-Networks)  |  42.48  | 64.7 |
+| [Michedev/Prototypical-Networks-Few-Zero-Shot](https://github.com/Michedev/Prototypical-Networks-Few-Zero-Shot)  |  49.75  | 66.60 |
+| This repo(paddlepaddle)   | 50.29 ± 0.64 | 67.33 ± 0.49 |
 
 
 # Reference
