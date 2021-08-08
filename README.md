@@ -53,6 +53,25 @@ python data/dataprocess.py
 `exps/exp-v1/config.yaml`为5way-1shot的配置文件，
 `exps/exp-v2/config.yaml`为5way-5shot的配置文件，其中，需要将`datasets`值改为上一步生成的pkl所在路径
 
+#### 参数说明
+- `max_epoch` 训练epoch个数
+- `save_epoch` 每隔多少个epoch保存一次模型
+- `shot` 每个类别支持集的样本数
+- `query` 每个类别查询集的样本上
+- `train_way` 训练时每个episode包含的类别数
+- `test_way` 测试时每个episode包含的类别数
+- `datasets` 数据集，目前仅有mini-imageNet
+- `datapath` 处理后的数据pkl所在目录
+- `save_path` 模型保存路径
+- `gpu` gpu选择
+- `seed` 随机种子的设置
+- `lr` 学习率
+- `stepSize` 学习率衰减间隔
+- `gamma` 衰减率
+- `load` 加载模型的路径
+- `result` 最终测试结果保存路径
+- `batch` 测试时的episode数量
+
 ### （三）模型训练
 
 #### 5-way-1-shot
