@@ -120,7 +120,7 @@ FLAGS_cudnn_deterministic=True python tools/test.py --config "exps/exp-v2/config
 | [KamalM8/Few-Shot-learning-Fashion](https://github.com/KamalM8/Few-Shot-learning-Fashion)  |  48.0  | 66.2 |
 | [WangTianduo/Prototypical-Networks](https://github.com/WangTianduo/Prototypical-Networks)  |  42.48  | 64.7 |
 | [Michedev/Prototypical-Networks-Few-Zero-Shot](https://github.com/Michedev/Prototypical-Networks-Few-Zero-Shot)  |  49.75  | 66.60 |
-| This repo(paddlepaddle)   | 50.29 ± 0.64 | 68.01 ± 0.49 |
+| This repo(paddlepaddle)   | 50.29 ± 0.64 | 68.22 ± 0.49 |
 
 
 # Reference
