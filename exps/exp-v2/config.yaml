@@ -6,7 +6,7 @@ train:
   train_way: 20
   test_way: 5
   datasets: "mini-imageNet"
-  datapath: '/data/songk/project/work'
+  datapath: '/space0/songk/project/prototypeNet-paddle'
   save_path: 'exps/exp-v2/proto'
   gpu: 'gpu:1'
   seed: 5114
@@ -15,12 +15,12 @@ train:
   gamma: 0.5
 test:
   gpu: 'gpu:1'
-  # load: 'exps/exp-v2/proto/max-acc.pth'
-  load: '5-shot.pth'
-  datapath: '/data/songk/project/work'
+  load: 'exps/exp-v2/proto/max-acc.pth'
+  # load: '5-shot.pth'
+  datapath: '/space0/songk/project/prototypeNet-paddle'
   result: 'exps/exp-v2/proto/result'
   batch: 2000
   way: 5
   shot: 5
   query: 30
-  seed: 5115
+  seed: 5114
