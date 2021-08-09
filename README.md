@@ -29,7 +29,7 @@
 
 ```bash
 # 克隆本仓库
-git clone https://github.com/skingorz/prototypeNet-paddle.git
+git clone git@github.com:skingorz/prototypeNet-paddle.git
 # 进入项目文件夹
 cd prototypeNet-paddle
 # 修改文件描述符限制
