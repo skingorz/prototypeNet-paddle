@@ -62,7 +62,10 @@ if __name__ == '__main__':
 
     
     # optimizer = paddle.optimizer.Adam(model.parameters(), lr=0.001)
-    lr_scheduler = paddle.optimizer.lr.StepDecay(learning_rate=cfg.lr, step_size=cfg.stepSize, gamma=cfg.gamma)
+    if cfg.shot == 1:
+        lr_scheduler = paddle.optimizer.lr.StepDecay(learning_rate=cfg.lr, step_size=cfg.stepSize, gamma=cfg.gamma)
+    else:
+        lr_scheduler = paddle.optimizer.lr.CosineAnnealingDecay(learning_rate=cfg.lr, T_max=cfg.max_epoch, eta_min=0)
     optimizer = paddle.optimizer.Adam(learning_rate=lr_scheduler, parameters = model.parameters())
 
     def save_model(name):
