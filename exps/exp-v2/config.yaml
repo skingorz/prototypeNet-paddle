@@ -1,5 +1,5 @@
 train:
-  max_epoch: 100
+  max_epoch: 200
   save_epoch: 20
   shot: 5
   query: 15
@@ -16,7 +16,7 @@ train:
 test:
   gpu: 'gpu:1'
   load: 'exps/exp-v2/proto/max-acc.pth'
-  # load: '5-shot.pth'
+  # load: 'max-acc.pth'
   datapath: '/space0/songk/project/prototypeNet-paddle'
   result: 'exps/exp-v2/proto/result'
   batch: 2000
