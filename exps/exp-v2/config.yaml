@@ -9,7 +9,7 @@ train:
   datapath: '/space0/songk/project/prototypeNet-paddle'
   save_path: 'exps/exp-v2/proto'
   gpu: 'gpu:1'
-  seed: 5114
+  seed: 12982
   lr: 0.001
   stepSize: 20
   gamma: 0.5
@@ -23,4 +23,4 @@ test:
   way: 5
   shot: 5
   query: 30
-  seed: 5114
+  seed: 12982
