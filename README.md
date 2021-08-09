@@ -108,7 +108,7 @@ FLAGS_cudnn_deterministic=True python tools/test.py --config "exps/exp-v2/config
 
 ### （五）性能对比
 
-下表展示了我们的复现代码和paperwithcode上已有的结果对比，在5-way-1-shot上我们的方法超过了论文的性能0.87\%，也高于大部分复现结果。在5-way-5-shot上，我们比论文性能略低0.19%，但是paperwithcode上目前并无达到论文性能的代码，且我们的复现性能依旧高于大部分现有的复现结果。
+下表展示了我们的复现代码和paperwithcode上已有的结果对比，在5-way-1-shot上我们的方法超过了论文的性能0.87\%，也高于大部分复现结果。在5-way-5-shot上，我们比论文性能略高0.02\%，且paperwithcode上目前并无达到论文性能的代码。
 
 | method   | 5-way-1-shot | 5-way-5-shot  |  
 |:--------:|:------------:|:------------:|
