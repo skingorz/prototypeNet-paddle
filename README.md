@@ -51,7 +51,7 @@ python data/dataprocess.py
 ### （二）修改配置文件
 
 `exps/exp-v1/config.yaml`为5way-1shot的配置文件，
-`exps/exp-v2/config.yaml`为5way-5shot的配置文件，其中，需要将`datasets`值改为上一步生成的pkl所在路径
+`exps/exp-v2/config.yaml`为5way-5shot的配置文件，其中，需要将`datapath`值改为上一步生成的pkl所在路径
 
 #### 参数说明
 - `max_epoch` 训练epoch个数
