@@ -5,8 +5,7 @@ import paddle.nn as nn
 
 
 def conv_block(in_channels, out_channels):
-    # weight_attr = paddle.framework.ParamAttr(initializer=paddle.nn.initializer.Uniform())
-    # weight_attr = paddle.framework.ParamAttr(initializer=paddle.nn.initializer.Uniform(low=-0.5, high=0.5))
+
     weight_attr = paddle.framework.ParamAttr(initializer=nn.initializer.KaimingUniform())
     bn = nn.BatchNorm2D(out_channels, weight_attr=weight_attr)
     # nn.initializer.Uniform()
